@@ -24,7 +24,7 @@ class BookRest(
         val list = if (genre.isNullOrBlank()) {
             repository.findAll()
         } else {
-            repository.findAllByGenre(genre)
+            repository.findAllByGenre(genre!!)
         }
 
         return ResponseEntity.ok(EntityToDTOConverter.transform(list))
