@@ -7,7 +7,7 @@ import javax.validation.constraints.Pattern
 import javax.validation.constraints.Size
 
 @Entity
-class BookEntity (
+class BookEntity(
 
         @get:Id
         @get:GeneratedValue
@@ -22,7 +22,7 @@ class BookEntity (
         @get:Size(min = 2, max = 128)
         var author: String,
 
-        //TODO Test this
+        //TODO Test this meow!
         @get:NotBlank
         //Regex pattern for dates taken from top comment here:
         //https://stackoverflow.com/questions/15491894/regex-to-validate-date-format-dd-mm-yyyy?answertab=votes#tab-top
