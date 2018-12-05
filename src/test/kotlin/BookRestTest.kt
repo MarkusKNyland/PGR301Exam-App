@@ -28,7 +28,7 @@ class BookRestTest : ApiTestBase() {
                 .get()
                 .then()
                 .statusCode(200)
-                .body("size()", equalTo(1)) //Change back to 2
+                .body("size()", equalTo(2))
     }
 
     @Test
