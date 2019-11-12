@@ -1,3 +1,5 @@
+# Ignored secrets
+credentials.yml
 
 # Created by https://www.gitignore.io/api/java,macos,maven,kotlin,gradle,windows,jetbrains+all
 # Edit at https://www.gitignore.io/?templates=java,macos,maven,kotlin,gradle,windows,jetbrains+all
