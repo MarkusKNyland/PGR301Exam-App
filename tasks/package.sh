@@ -1,2 +1,3 @@
 #!/bin/bash
-find .
+cd ./source-code || echo "ERROR"
+mvn clean install

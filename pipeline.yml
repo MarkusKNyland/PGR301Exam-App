@@ -24,4 +24,5 @@ jobs:
           inputs:
             - name: source-code
           run:
-            path: find
+            path: /bin/bash
+            args: ["source-code/tasks/package.sh"]
