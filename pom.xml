@@ -18,7 +18,7 @@
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
         <version.h2>1.4.194</version.h2>
         <version.gson>2.8.1</version.gson>
-        <version.junit>4.12</version.junit>
+        <version.junit>4.13.1</version.junit>
         <version.restassured>3.1.0</version.restassured>
         <version.mvn-compiler-plugin>3.7.0</version.mvn-compiler-plugin>
     </properties>
